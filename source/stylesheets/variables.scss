@@ -1,0 +1,13 @@
+$red: #ed1a3b;
+$yellow: #f2f6d5;
+$light-blue: #32464c;
+$dark-blue: #11282f;
+
+.table-striped>tbody>tr:nth-child(odd)>td, 
+.table-striped>tbody>tr:nth-child(odd)>th {
+   background-color: $light-blue;
+   border: none !important;
+ }
+ tbody,tr,td,th,tbody{
+   border: none !important;
+ }
