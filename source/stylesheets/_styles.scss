@@ -1,0 +1,37 @@
+@font-face {
+	font-family:'Futura';
+	src: url('../web-fonts/FuturaStd-Medium_gdi.eot');
+	src: url('../web-fonts/FuturaStd-Medium_gdi.eot?#iefix') format('embedded-opentype'),
+		url('../web-fonts/FuturaStd-Medium_gdi.woff') format('woff'),
+		url('../web-fonts/FuturaStd-Medium_gdi.ttf') format('truetype'),
+		url('../web-fonts/FuturaStd-Medium_gdi.svg#FuturaStd-Medium') format('svg');
+	font-weight: 500;
+	font-style: normal;
+	font-stretch: normal;
+	unicode-range: U+0020-25CA;
+}
+
+body{
+	background-image: url('https://s3.amazonaws.com/myfangate.com/iprevailradio/clouds.jpg');
+    background-position: bottom center;
+    background-repeat: repeat;
+    background-size: contain;
+    background-attachment: fixed;
+    background-color: $dark-blue;
+    color: $red;
+	p,h1,h2,h3,h4,b,table,button{
+		font-family: 'Futura', sans-serif !important;
+	}
+	table{
+		background-color: $dark-blue;
+		td{
+			vertical-align: middle !important;
+			.btn{
+				min-width: 50px;
+			}
+		}
+	}
+}
+.full-w{
+	width: 100%;
+}

@@ -1,4 +1,11 @@
 @charset "utf-8";
+@import "variables";
 @import "normalize";
+@import "font-awesome";
 @import "bootstrap-sprockets";
 @import "bootstrap";
+@import "styles";
+@import "header";
+@import "radio-list";
+@import "footer";
+@import "media-queries";
