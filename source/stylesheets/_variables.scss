@@ -3,6 +3,11 @@ $yellow: #f2f6d5;
 $light-blue: #32464c;
 $dark-blue: #11282f;
 
+// BOOTSTRAP OVERRIDES
+$btn-default-color:              $red;
+$btn-default-bg:                 $dark-blue;
+$btn-default-border:             transparent;
+
 .table-striped>tbody>tr:nth-child(odd)>td, 
 .table-striped>tbody>tr:nth-child(odd)>th {
    background-color: $light-blue;

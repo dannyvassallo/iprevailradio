@@ -1,0 +1,14 @@
+.table-striped>tbody>tr:nth-child(even)>td{
+	.btn{
+		background-color: $light-blue !important;
+		&:hover{
+			background-color: black !important;
+		}
+	}
+}
+.yellow-text{
+	color: $yellow !important;
+}
+.radio-list{
+	margin-top: 5%;
+}

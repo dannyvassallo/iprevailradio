@@ -12,9 +12,9 @@
 }
 
 body{
-	background-image: url('https://s3.amazonaws.com/myfangate.com/iprevailradio/background-image.jpg');
+	background-image: url('https://s3.amazonaws.com/myfangate.com/iprevailradio/clouds.jpg');
     background-position: bottom center;
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     background-size: contain;
     background-attachment: fixed;
     background-color: $dark-blue;
@@ -24,6 +24,12 @@ body{
 	}
 	table{
 		background-color: $dark-blue;
+		td{
+			vertical-align: middle !important;
+			.btn{
+				min-width: 50px;
+			}
+		}
 	}
 }
 .full-w{
